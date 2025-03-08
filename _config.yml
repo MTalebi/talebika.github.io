@@ -1,6 +1,6 @@
 title: "Mohammad Talebi Kalaleh"
 description: "My CV site for structural engineering research, projects, and teaching."
-theme: jekyll-theme-slate  # or leave empty if you want to handle all styling yourself
+theme:  # or leave empty if you want to handle all styling yourself
 baseurl: ""
 url: "https://talebika.github.io"  # Replace with your GitHub Pages URL
 markdown: kramdown
