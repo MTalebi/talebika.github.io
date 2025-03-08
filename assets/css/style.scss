@@ -1,0 +1,48 @@
+// Simple overrides to give a cleaner "dashboard" feel.
+// Feel free to customize colors, paddings, or fonts.
+
+body {
+  background-color: #f8f9fa; // Light gray background
+  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+// Sidebar styling
+.sidebar {
+  background-color: #ffffff; // White background for sidebar
+  border-right: 1px solid #dddddd;
+  min-height: 100vh; // fill full page height
+  padding: 1rem;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #eeeeee;
+  color: #000;
+}
+
+// Main content area
+.col-md-9 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+// Headings
+h1, h2, h3 {
+  color: #2d2d2d;
+}
+
+// Additional optional styling
+a {
+  text-decoration: none;
+  color: #0d6efd; // Bootstrap primary link color
+}
+
+a:hover {
+  color: #084298;
+}
